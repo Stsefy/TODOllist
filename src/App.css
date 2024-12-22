@@ -1,0 +1,48 @@
+.app {
+  margin: 50px 20px 0;
+  width: 70%;
+  min-width: 320px;
+  max-width: 700px;
+}
+
+.app__form {
+  display: flex;
+  align-items: flex-start;
+}
+
+.app__filter {
+  margin: 30px 0 5px;
+}
+
+.app__filter__title {
+  font-weight: 400;
+  margin-right: 5px;
+}
+
+.app__button {
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.app__button:hover {
+  filter: brightness(80%);
+}
+
+.app__list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 5px;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 5px;
+  margin-right: 5px;
+}

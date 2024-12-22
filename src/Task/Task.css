@@ -1,0 +1,57 @@
+.task {
+  display: flex;
+  border: 1px solid black;
+  background-color: white;
+  padding: 5px;
+
+  .task__button {
+    display: none;
+    font-weight: 200;
+    color: white;
+    background-color: red;
+  }
+}
+
+.task__checkbox {
+  align-self: flex-start;
+}
+
+.task__title {
+  font-weight: 500;
+  color: black;
+}
+
+.task__desc {
+  color: gray;
+}
+
+.task__created {
+  font-size: 12px;
+  color: gray;
+}
+
+.task-done {
+  background-color: rgba(128, 128, 128, 0.393);
+}
+
+.show {
+  .task__button {
+    display: block;
+  }
+}
+
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 5px;
+  margin: 0 5px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: space-between;
+  gap: 5px;
+}
